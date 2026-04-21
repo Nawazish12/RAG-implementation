@@ -96,7 +96,7 @@ export function PracticeConsole() {
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10">
       <header className="space-y-2">
-        <h1 className="text-2xl font-semibold tracking-tight">RAG practice lab</h1>
+        <h1 className="text-2xl font-semibold tracking-tight">RAG Practice Lab</h1>
         <p className="max-w-3xl text-sm text-[var(--muted)]">
           Upload documents, store their chunks in Supabase + pgvector, and chat with grounded answers.
           No authentication; keep your service role key server-side only.
